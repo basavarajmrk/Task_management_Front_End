@@ -29,11 +29,11 @@ const SignupPage = () =>{
                 <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />
                 </div>
                 <div>
-                    <label >Email</label>
+                    <label >Email:</label>
                     <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} required  />
                 </div>
                 <div>
-                    <label >Password</label>
+                    <label >Password:</label>
                     <input type="text" value={password} onChange={(e) => setPassword(e.target.value)} required />
                 </div>
                 <button type="submit">Signup</button>
